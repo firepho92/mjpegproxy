@@ -16,5 +16,5 @@ module.exports = function(app) {
   });
 
   //cameras
-  app.get('/barra', new MjpegProxy({mjpegUrl: 'http://192.168.100.169'}).proxyRequest);
+  app.get('/cocina', new MjpegProxy({mjpegUrl: 'http://192.168.0.50'}).proxyRequest);
 }
